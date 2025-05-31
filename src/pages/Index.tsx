@@ -51,7 +51,7 @@ const Index = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <Gem className="h-8 w-8 text-gemstone-purple" />
-              <span className="font-playfair font-bold text-xl text-gemstone-dark">Celestial Gems</span>
+              <span className="font-playfair font-bold text-xl text-gemstone-dark">Wafiya Gems</span>
             </div>
             <div className="hidden md:flex space-x-8">
               <button 
@@ -118,7 +118,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gemstone-dark mb-4">
-              About Celestial Gems
+              About Wafiya Gems
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               For over two decades, we've been passionate about bringing you the most beautiful 
@@ -132,7 +132,7 @@ const Index = () => {
                 Our Story
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Founded in 2001 by gem enthusiast Sarah Mitchell, Celestial Gems began as a small 
+                Founded in 2009 by gem enthusiast Wavoo Ismail, Wafiya Gems began as a small 
                 collection of personally sourced stones from travels around the globe. What started 
                 as a passion project has grown into a trusted source for high-quality semi-precious 
                 stones that inspire and heal.
@@ -254,7 +254,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gemstone-dark mb-2">Phone</h3>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+852 9329 8251</p>
                   <p className="text-sm text-gray-500">Monday - Friday, 9AM - 6PM EST</p>
                 </div>
               </div>
@@ -265,7 +265,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gemstone-dark mb-2">Email</h3>
-                  <p className="text-gray-600">hello@celestialgems.com</p>
+                  <p className="text-gray-600">wsarismail@gmail.com</p>
                   <p className="text-sm text-gray-500">We respond within 24 hours</p>
                 </div>
               </div>
@@ -276,7 +276,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gemstone-dark mb-2">Visit Our Showroom</h3>
-                  <p className="text-gray-600">123 Crystal Avenue<br />Gemstone District, NY 10001</p>
+                  <p className="text-gray-600">123 Burlington House<br />Nathan Road, Tsim Sha Tsui,<br />Kowloon, Hong Kong</p>
                   <p className="text-sm text-gray-500">By appointment only</p>
                 </div>
               </div>
@@ -329,11 +329,11 @@ const Index = () => {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Gem className="h-8 w-8 text-gemstone-gold" />
-                <span className="font-playfair font-bold text-xl">Celestial Gems</span>
+                <span className="font-playfair font-bold text-xl">Wafiya Gems</span>
               </div>
               <p className="text-gray-300 leading-relaxed">
-                Your trusted source for authentic semi-precious stones and healing crystals. 
-                Bringing you nature's beauty since 2001.
+                Your trusted source for authentic semi-precious stones and quality gemstones. 
+                Bringing you nature's beauty since 2009.
               </p>
             </div>
             <div>
@@ -364,7 +364,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Celestial Gems. All rights reserved.</p>
+            <p>&copy; 2025 Wafiya Gems. All rights reserved.</p>
           </div>
         </div>
       </footer>
