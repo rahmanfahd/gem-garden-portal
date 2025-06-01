@@ -1,6 +1,11 @@
 {
   "name": "vite_react_shadcn_ts",
   "private": true,
+  "homepage": "https://rahmanfahd.github.io/gem-garden-portal",
+  "repository": {
+    "type": "git",
+    "url": "https://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@github.com/rahmanfahd/gem-garden-portal.git"
+  },
   "version": "0.0.0",
   "type": "module",
   "scripts": {
