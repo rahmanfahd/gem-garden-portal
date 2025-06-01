@@ -2,7 +2,7 @@
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://rahmanfahd.github.io/gem-garden-portal/",
+  "homepage": "https://rahmanfahd.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
