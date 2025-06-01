@@ -27,19 +27,19 @@ const Index = () => {
       name: "Sapphire",
       description: "The stone renowned for its deep blue color and royal heritage",
       image: "https://cdn.prod.website-files.com/6177926b5641c2ccacfc1ad3/6447b0edacd07b2042451d82_Facts%20about%20Sapphires.webp",
-      price: "$1000 - $3000/ct"
+      price: "$10,000 - $30,000/ct"
     },
     {
       name: "Alexandrite",
       description: "The color-changing marvel that shifts from green to red found in Sri Lanka, Africa",
       image: "https://cdn.shopify.com/s/files/1/0297/3705/8388/files/1080x1080_IG_Alexandrite_13_480x480.jpg?v=1627934238",
-      price: "$150 - $400/ct"
+      price: "$1,200 - $60,000/ct"
     },
     {
       name: "Aquamarine",
       description: "A stone of tranquility, known for its serene blue-green color",
       image: "https://cdn.gemporia.io/images/assets/160489/Aquamarine%20-%20Santa%20Maria.jpg",
-      price: "$150 - $400/ct"
+      price: "$1500 - $400/ct"
     }
   ];
 

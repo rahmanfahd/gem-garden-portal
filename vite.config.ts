@@ -1,18 +1,10 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
-import { componentTagger } from "lovable-tagger";
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/gem-garden-portal/', // <-- Set to your repo name
-  server: {
-    host: true,    // Listen on all addresses
-    port: 3000,    // Port number
-    open: true,    // Open browser automatically
-    strictPort: true, // Fail if port is in use
-  },
+  base: '/', // Change this to '/' for custom domain
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
