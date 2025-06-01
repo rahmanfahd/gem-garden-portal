@@ -19,27 +19,27 @@ const Index = () => {
   const gemstones = [
     {
       name: "Amethyst",
-      description: "Known for its calming properties and stunning purple hues",
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=400&fit=crop",
-      price: "$45 - $120"
+      description: "Known for its stunning purple hues and timeless style",
+      image: "https://www.rockhounding.org/blog/collecting-amethyst-meaning-uses-properties-guide/images/Amethyst%20Ring.jpg",
+      price: "$150 - $400/ct"
     },
     {
-      name: "Rose Quartz",
-      description: "The stone of unconditional love with soft pink tones",
-      image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?w=500&h=400&fit=crop",
-      price: "$35 - $85"
+      name: "Sapphire",
+      description: "The stone renowned for its deep blue color and royal heritage",
+      image: "https://cdn.prod.website-files.com/6177926b5641c2ccacfc1ad3/6447b0edacd07b2042451d82_Facts%20about%20Sapphires.webp",
+      price: "$1000 - $3000/ct"
     },
     {
-      name: "Citrine",
-      description: "Bright and energizing with warm golden colors",
-      image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?w=500&h=400&fit=crop",
-      price: "$55 - $150"
+      name: "Alexandrite",
+      description: "The color-changing marvel that shifts from green to red found in Sri Lanka, Africa",
+      image: "https://cdn.shopify.com/s/files/1/0297/3705/8388/files/1080x1080_IG_Alexandrite_13_480x480.jpg?v=1627934238",
+      price: "$150 - $400/ct"
     },
     {
-      name: "Green Aventurine",
-      description: "A stone of opportunity with beautiful green shimmer",
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=500&h=400&fit=crop",
-      price: "$25 - $70"
+      name: "Aquamarine",
+      description: "A stone of tranquility, known for its serene blue-green color",
+      image: "https://cdn.gemporia.io/images/assets/160489/Aquamarine%20-%20Santa%20Maria.jpg",
+      price: "$150 - $400/ct"
     }
   ];
 
@@ -81,14 +81,14 @@ const Index = () => {
       <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-gemstone-purple/10 via-gemstone-rose/5 to-gemstone-gold/10">
         <div className={`text-center px-4 max-w-4xl mx-auto transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
           <h1 className="font-playfair text-5xl md:text-7xl font-bold text-gemstone-dark mb-6">
-            Discover Nature's
+            Wafiya Gems:
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-gemstone-purple to-gemstone-rose block">
-              Hidden Treasures
+            Exquisite Gemstones & Timeless Jewelry from Asia Pacific
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
             Curated collection of the world's finest semi-precious stones, 
-            each one handpicked for its unique beauty and natural energy.
+            each one handpicked for its unique beauty & selection.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
@@ -121,7 +121,7 @@ const Index = () => {
               About Wafiya Gems
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              For over two decades, we've been passionate about bringing you the most beautiful 
+              For over a decade, we've been passionate about bringing you the most beautiful 
               semi-precious stones from around the world.
             </p>
           </div>
@@ -135,13 +135,13 @@ const Index = () => {
                 Founded in 2009 by gem enthusiast Wavoo Ismail, Wafiya Gems began as a small 
                 collection of personally sourced stones from travels around the globe. What started 
                 as a passion project has grown into a trusted source for high-quality semi-precious 
-                stones that inspire and heal.
+                stones that inspire.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 We believe that every stone has a story, and we're here to help you discover 
                 the perfect piece that resonates with your journey. Our commitment to authenticity, 
-                quality, and customer satisfaction has made us a favorite among collectors, 
-                healers, and jewelry makers worldwide.
+                quality, and customer satisfaction has made us a favorite among collectors
+                and jewelry makers worldwide.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">
