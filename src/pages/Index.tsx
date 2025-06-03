@@ -355,7 +355,15 @@ const Index = () => {
                   <span className="text-sm font-bold">f</span>
                 </div>
                 <div className="w-10 h-10 bg-gemstone-rose rounded-full flex items-center justify-center hover:bg-gemstone-gold transition-colors cursor-pointer">
-                  <span className="text-sm font-bold">@</span>
+                  <span className="text-sm font-bold">
+                    <a 
+                      href="mailto:wsarismail@gmail.com" 
+                      className="w-10 h-10 bg-gemstone-rose rounded-full flex items-center justify-center hover:bg-gemstone-gold transition-colors cursor-pointer"
+                      aria-label="Email us"
+                    > 
+                      <span className="text-sm font-bold">@</span>
+                    </a>
+                  </span>
                 </div>
                 <div className="w-10 h-10 bg-gemstone-emerald rounded-full flex items-center justify-center hover:bg-gemstone-gold transition-colors cursor-pointer">
                   <span className="text-sm font-bold">in</span>
