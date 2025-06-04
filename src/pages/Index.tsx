@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from 'react';
 import { Gem, Mail, Phone, MapPin, Star, Award, Users, Heart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -353,14 +354,17 @@ const Index = () => {
                 <div className="w-10 h-10 bg-gemstone-purple rounded-full flex items-center justify-center hover:bg-gemstone-gold transition-colors cursor-pointer">
                   <span className="text-sm font-bold">f</span>
                 </div>
-                <a 
-                  href="mailto:wsarismail@gmail.com?subject=Inquiry%20About%20Gemstones&body=Hello%20Wafiya%20Gems,"
-                  className="w-10 h-10 bg-gemstone-rose rounded-full flex items-center justify-center hover:bg-gemstone-gold transition-colors cursor-pointer"
-                  aria-label="Send us an email"
-                  title="Send us an email"
-                >
-                  <span className="text-sm font-bold text-white">@</span>
-                </a>
+                <div className="w-10 h-10 bg-gemstone-rose rounded-full flex items-center justify-center hover:bg-gemstone-gold transition-colors cursor-pointer">
+                  <span className="text-sm font-bold">
+                    <a 
+                      href="mailto:wsarismail@gmail.com" 
+                      className="w-10 h-10 bg-gemstone-rose rounded-full flex items-center justify-center hover:bg-gemstone-gold transition-colors cursor-pointer"
+                      aria-label="Email us"
+                    > 
+                      <span className="text-sm font-bold">@</span>
+                    </a>
+                  </span>
+                </div>
                 <div className="w-10 h-10 bg-gemstone-emerald rounded-full flex items-center justify-center hover:bg-gemstone-gold transition-colors cursor-pointer">
                   <span className="text-sm font-bold">in</span>
                 </div>
